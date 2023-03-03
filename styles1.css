@@ -1,0 +1,174 @@
+/* LOGIN PAGE */
+
+body{
+    /* background-color: rgb(212, 219, 220); */
+    background-color:#eff2f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.main{
+    padding: 150px;
+}
+
+.alogo{
+    padding: 40px;
+    width: 300px;
+    height: 100px;
+}
+
+/* .mheading{
+    margin: 50px;
+    color: rgb(20, 145, 247);
+    font size:100px;
+} */
+
+.h3{
+
+}
+
+.login{
+    padding: 30px;
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    align-items: center;
+    /* font-size: ; */
+
+}
+
+.box{
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: rgb(194, 194, 194);
+}
+
+#btn{
+    padding: 10px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: rgb(20, 145, 247);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+#btn:hover{
+    opacity: 0.8;
+}
+
+.base{
+    color: rgb(20, 145, 247);
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction:row;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* signup link */
+
+a:link{
+    text-decoration: none;
+}
+a:visited {
+        text-decoration: none;
+}
+      
+a:hover {
+        text-decoration:dotted;
+}
+
+
+/* SIGN UP PAGE */
+
+
+.mainclass{
+    padding: 0px;
+}
+
+.logo{
+    padding: 40px;
+    width: 300px;
+    height: 100px;
+}
+
+.signup{
+    padding: 30px;
+    width: 400px;
+    height: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    align-items: center;
+    
+    /* font-size: ; */
+
+}
+
+.cvpanel{ 
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+} 
+
+.fieldset{
+    border-radius: 5px;
+    border-color: rgb(194, 194, 194);
+    width: 300px;
+    height: 30px;
+    
+}
+
+.dob{ 
+    
+    /* ::-webkit--edit { padding: 1px;} */
+width: 200px;
+border: none;
+font-size: 16px;
+padding-bottom: 3px;
+/* color:rgb(20, 145,247) ; */
+}
+
+/* .dob ::-webkit-calendar-picker-indicator { background: orange; } */
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+
+#signupbtn{
+    padding: 10px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: rgb(20, 145, 247);
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+#signupbtn:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+
+      
+      
+      
+      
+      
+

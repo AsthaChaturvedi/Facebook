@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+<div class="mainclass">
+      
+        <!-- <h1 class="mheading">Asparrowtech</h1> -->
+
+        <img class="logo" src="./img/asparrowtech-logo.PNG">
+
+    <div class="signup">
+        <h3 class="h3">Create a new account</h3>
+
+
+        <form>
+            <input type="text" id="fname" placeholder="Enter your name" value="" class="box"><br><br>
+            <input type="tel" id="mobile" placeholder="Mobile Number" value="" class="box" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required><br><br>
+
+            <input type="text" id="emailid"  placeholder="Email address" value="" class="box"><br><br>
+            <input type="password" id="password" placeholder="Password" class="box"><br><br>
+            <input type="password" id="cpassword" placeholder="Confirm password" value="" class="box"><br><br>
+            <input type="text" id="city" placeholder="City" value="" class="box"><br><br>
+            <input type="text" id="college" placeholder="Enter your college name" value="" class="box"><br><br>
+
+        <div class="cvpanel">
+        <fieldset class="fieldset">
+                <legend >Date of birth</legend>
+            <!-- <label  for="dob">Date of birth</label> -->
+            <input class="dob" type="date"><br>
+        </fieldset>
+        <!-- </div> -->
+        
+        <!-- <div class="cvpanel"> -->
+        <fieldset class="fieldset">
+                <legend>Gender</legend>
+            <!-- <label for="gender">Gender</label> -->
+            <input type="radio" id="female" name="select_gender" value="Female">
+             <label for="gender">Female</label>
+             <input type="radio" id="male" name="select_gender" value="Male">
+             <label for="gender">Male</label>
+             <input type="radio" id="other" name="select_gender" value="Other">
+             <label for="gender">Other</label><br>
+        </fieldset>
+        <!-- </div> -->
+
+        <!-- <div class="cvpanel"> -->
+        <fieldset class="fieldset">
+                <legend>Upload CV</legend>
+            <!-- <label for="cv">Upload CV</label> -->
+            <input type="file" ><br>
+        </fieldset>
+        </div>
+
+        <br>
+
+            <input type="button" id="signupbtn" value="Sign up" onclick="Submit()">
+
+
+        
+        </div>                  
+
+        </form>
+    </div>
+    
+</div>
+    
+</body>
+</html>
